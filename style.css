@@ -1,0 +1,25 @@
+body {
+
+    font-family: 'Courier New', Courier, monospace;
+    margin: 100px 600px 100px 600px;
+
+}
+table {
+    border-collapse: collapse;
+    text-align: left;
+}
+table th,td{
+    border: 1px solid;
+    padding: 5px;
+}
+
+tr:nth-child(even) {
+    background-color: #41b8b8;
+}
+tr:nth-child(odd) {
+    background-color: #00ff00;
+}
+table th {
+    background-color: gray;
+    font-size: 20px;
+}
